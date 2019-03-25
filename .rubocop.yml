@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - 'config/initializers/*'
+    - 'bin/*'
+    - 'db/**/*'
+    - 'node_modules/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+  TargetRubyVersion: 2.5.1
